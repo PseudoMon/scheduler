@@ -1,0 +1,29 @@
+.schedule-container {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.schedule table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.schedule table tbody td:first-child {
+	min-width: 5em;
+}
+
+.schedule table thead {
+	font-weight: 600;
+}
+
+.separator, thead {
+	background-color: var(--border-color);
+	color: var(--text-color-white);
+	border-color: var(--border-color);
+}
+
+header {
+	text-align: center;
+	margin-top: 10px;
+}
